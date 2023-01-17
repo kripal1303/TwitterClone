@@ -1,0 +1,30 @@
+.twt-btn{
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+}
+.txt-area{
+    resize: none;
+    
+}
+.twt-form{
+    width: 100%;
+}
+.twt-btm{
+    display: flex;
+    justify-content: space-between;
+
+}
+.twt-btm-left{
+    margin-top: 10px;
+}
+.write-twit{
+    padding-top: 20px;
+    border-bottom: 1px solid #eee;
+}

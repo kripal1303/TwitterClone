@@ -1,0 +1,25 @@
+.tweetListItem{
+    border: 1px solid #eee;
+    padding: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.twt-item-left{
+    display: flex;
+}
+.twt-cont{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.show-btn{
+    float: right;
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+    margin-right: 5px;
+}

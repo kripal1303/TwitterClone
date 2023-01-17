@@ -1,0 +1,19 @@
+<div class="tweetlist">
+
+  {{#each tweets as |tweet|}}
+    <div class="tweetListItem">
+      <div class="twt-item-left">
+        <img src="/img/kripal.jpg" alt="" class="user-img-40" />
+      </div>
+      <div class="twt-cont">
+        
+        {{tweet.tweetContent}}
+      </div>
+
+      <form action="/{{tweet.id}}" method="GET">
+        <button class="show-btn">Show</button>
+      </form>
+
+    </div>
+  {{/each}}
+</div>

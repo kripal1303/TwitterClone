@@ -1,0 +1,26 @@
+.single-tweet{
+    margin-top: 70px;
+    border: 1px solid #eee;
+    padding: 20px;
+    padding-bottom: 30px;
+
+}
+.edit-del-btn{
+    display: flex;
+    float: right;
+}
+.btm-btn{
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.twt-head{
+    margin-top:10px;
+    margin-left:10px;
+}
